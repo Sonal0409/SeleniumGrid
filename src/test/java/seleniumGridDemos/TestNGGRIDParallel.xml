@@ -1,0 +1,12 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="griddemos" verbose="1" parallel="true" thread-count="2">
+  <test name="Girddemo-standAlone" >
+    <classes>
+       <class name="seleniumGridDemos.GridDemo1" />
+        <class name="seleniumGridDemos.Griddemo2" />
+    </classes>
+  </test>
+</suite>
